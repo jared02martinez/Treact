@@ -42,6 +42,34 @@
                             <a href="" class="nav__link nav__link--primary">Sign Up</a>
                         </li>
                     </ul>
+                    <button class="btn__menu" onclick="openMenu()">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                    <div class="menu__backdrop">
+                        <button class="btn__menu btn__menu--close" onclick="closeMenu()">
+                            <i class="fas fa-times"></i>
+                        </button>
+                        <ul class="menu__links">
+                            <li class="menu__list">
+                                <a href="" class="menu__link" onclick="closeMenu()">About</a>
+                            </li>
+                            <li class="menu__list">
+                                <a href="" class="menu__link" onclick="closeMenu()">Blog</a>
+                            </li>
+                            <li class="menu__list">
+                                <a href="" class="menu__link" onclick="closeMenu()">Pricing</a>
+                            </li>
+                            <li class="menu__list">
+                                <a href="" class="menu__link" onclick="closeMenu()">Contact Us</a>
+                            </li>
+                            <li class="menu__list">
+                                <a href="" class="menu__link" onclick="closeMenu()">Login</a>
+                            </li>
+                            <li class="menu__list">
+                                <a href="" class="menu__link menu__link--primary" onclick="closeMenu()">Sign Up</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </nav>
@@ -236,7 +264,7 @@
                 <div class="row">
                     <div class="pricing__info">
                         <h5 class="purple">Pricing</h5>
-                        <h1 class="section__title">Reasonable and Flexible <span class="purple">Plans.</span></h1>
+                        <h1 class="section__title">Reasonable & Flexible <span class="purple">Plans.</span></h1>
                         <p class="pricing__para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, sequi
                             iure minus inventore nemo ab rem fugiat voluptas odit accusamus eligendi</p>
                     </div>
